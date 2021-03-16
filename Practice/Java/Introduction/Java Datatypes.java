@@ -13,7 +13,7 @@ class Solution{
                 if(x >= -128 && x <= 127){
                     System.out.println("* byte");
                 }
-                if(x >= Short.MIN_VALUE && x <= Short.MAX_VALUE){
+                if(x >= Short.MIN_VALUE && x <= Short.MAX_VALUE){ //making use of predefined constants instead of manually entering boundary values
                     System.out.println("* short");
                 }
                 if(x >= Integer.MIN_VALUE && x <= Integer.MAX_VALUE){
